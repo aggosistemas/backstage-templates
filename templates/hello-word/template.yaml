@@ -1,0 +1,13 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+metadata:
+  name: hello-world
+  title: Exemplo de Template
+  description: Cria um projeto de exemplo
+spec:
+  owner: equipe-dev
+  type: service
+  steps:
+    - action: debug:log
+      input:
+        message: "Criando um novo serviço!"
